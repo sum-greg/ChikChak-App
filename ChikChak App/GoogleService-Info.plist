@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>835507114994-vdju9tblgvni5eb3bii67jgeg3uaunpa.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.835507114994-vdju9tblgvni5eb3bii67jgeg3uaunpa</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhyIb79Pjma2MNItScUyLLpx_tHGkHE6k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>835507114994</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.grigorySumlinsky.ChikChak-App</string>
+	<key>PROJECT_ID</key>
+	<string>chikchak-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chikchak-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:835507114994:ios:0fd4dc26e0abbe5bb2916b</string>
+	<key>DATABASE_URL</key>
+	<string>https://chikchak-app-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

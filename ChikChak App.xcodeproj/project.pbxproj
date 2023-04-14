@@ -7,25 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0FB3E9D29D04BA265D8E57 /* Pods_ChikChak_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFAF9D26455C5984E889A6D /* Pods_ChikChak_App.framework */; };
+		374D3F7229A405C800D58421 /* BestPlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D3F7129A405C800D58421 /* BestPlayerCell.swift */; };
+		374D3F7429A405D500D58421 /* BestPlayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374D3F7329A405D500D58421 /* BestPlayerCell.xib */; };
+		379BC9F32997EB03000C9FC8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BC9F22997EB03000C9FC8 /* NetworkService.swift */; };
+		379BC9F62997EBD7000C9FC8 /* UserProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BC9F52997EBD7000C9FC8 /* UserProfileModel.swift */; };
+		379BC9F82997EC5E000C9FC8 /* ContestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BC9F72997EC5E000C9FC8 /* ContestModel.swift */; };
+		379BC9FD2997EDF6000C9FC8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BC9FC2997EDF6000C9FC8 /* TabBarController.swift */; };
+		379BCA032997EEC9000C9FC8 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BCA022997EEC9000C9FC8 /* NewsCell.swift */; };
+		379BCA052997EED3000C9FC8 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379BCA042997EED3000C9FC8 /* NewsCell.xib */; };
+		379BCA112997EEE8000C9FC8 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BCA0A2997EEE8000C9FC8 /* NewsViewController.swift */; };
+		379BCA152997EF0D000C9FC8 /* NewsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379BCA142997EF0D000C9FC8 /* NewsViewController.storyboard */; };
+		379BCA212997EFD2000C9FC8 /* CurrentContestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BCA1A2997EFD2000C9FC8 /* CurrentContestViewController.swift */; };
+		379BCA252997EFE3000C9FC8 /* CurrentContestViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379BCA242997EFE3000C9FC8 /* CurrentContestViewController.storyboard */; };
+		379BCA332997F0C5000C9FC8 /* SettingsProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BCA2C2997F0C5000C9FC8 /* SettingsProfileViewController.swift */; };
+		379BCA372997F0D8000C9FC8 /* SettingsProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379BCA362997F0D8000C9FC8 /* SettingsProfileViewController.storyboard */; };
+		379BCA3A2997F214000C9FC8 /* UIViewController + Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BCA392997F214000C9FC8 /* UIViewController + Storyboard.swift */; };
+		379BCA492997F2CD000C9FC8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BCA422997F2CD000C9FC8 /* LoginViewController.swift */; };
+		379BCA4D2997F2E0000C9FC8 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379BCA4C2997F2E0000C9FC8 /* LoginViewController.storyboard */; };
+		379BCA592997F30B000C9FC8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BCA522997F30B000C9FC8 /* RegisterViewController.swift */; };
+		379BCA5D2997F324000C9FC8 /* RegisterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379BCA5C2997F324000C9FC8 /* RegisterViewController.storyboard */; };
 		37CE6D7C29893BE0004CD78D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CE6D7B29893BE0004CD78D /* AppDelegate.swift */; };
 		37CE6D7E29893BE0004CD78D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CE6D7D29893BE0004CD78D /* SceneDelegate.swift */; };
-		37CE6D8029893BE0004CD78D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CE6D7F29893BE0004CD78D /* ViewController.swift */; };
 		37CE6D8329893BE0004CD78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CE6D8129893BE0004CD78D /* Main.storyboard */; };
 		37CE6D8629893BE0004CD78D /* ChikChak_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37CE6D8429893BE0004CD78D /* ChikChak_App.xcdatamodeld */; };
 		37CE6D8829893BE1004CD78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CE6D8729893BE1004CD78D /* Assets.xcassets */; };
 		37CE6D8B29893BE1004CD78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CE6D8929893BE1004CD78D /* LaunchScreen.storyboard */; };
+		37FC8811299D18F100254993 /* NewsCellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FC8810299D18F100254993 /* NewsCellDetailViewController.swift */; };
+		37FC8813299D190000254993 /* NewsCellDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FC8812299D190000254993 /* NewsCellDetailViewController.storyboard */; };
+		37FC884829A24DAE00254993 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37FC884729A24DAE00254993 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		374D3F7129A405C800D58421 /* BestPlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestPlayerCell.swift; sourceTree = "<group>"; };
+		374D3F7329A405D500D58421 /* BestPlayerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestPlayerCell.xib; sourceTree = "<group>"; };
+		379BC9F22997EB03000C9FC8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		379BC9F52997EBD7000C9FC8 /* UserProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModel.swift; sourceTree = "<group>"; };
+		379BC9F72997EC5E000C9FC8 /* ContestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestModel.swift; sourceTree = "<group>"; };
+		379BC9FC2997EDF6000C9FC8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		379BCA022997EEC9000C9FC8 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		379BCA042997EED3000C9FC8 /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		379BCA0A2997EEE8000C9FC8 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		379BCA142997EF0D000C9FC8 /* NewsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsViewController.storyboard; sourceTree = "<group>"; };
+		379BCA1A2997EFD2000C9FC8 /* CurrentContestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentContestViewController.swift; sourceTree = "<group>"; };
+		379BCA242997EFE3000C9FC8 /* CurrentContestViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CurrentContestViewController.storyboard; sourceTree = "<group>"; };
+		379BCA2C2997F0C5000C9FC8 /* SettingsProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsProfileViewController.swift; sourceTree = "<group>"; };
+		379BCA362997F0D8000C9FC8 /* SettingsProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsProfileViewController.storyboard; sourceTree = "<group>"; };
+		379BCA392997F214000C9FC8 /* UIViewController + Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Storyboard.swift"; sourceTree = "<group>"; };
+		379BCA422997F2CD000C9FC8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		379BCA4C2997F2E0000C9FC8 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		379BCA522997F30B000C9FC8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		379BCA5C2997F324000C9FC8 /* RegisterViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterViewController.storyboard; sourceTree = "<group>"; };
 		37CE6D7829893BE0004CD78D /* ChikChak App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChikChak App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CE6D7B29893BE0004CD78D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37CE6D7D29893BE0004CD78D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37CE6D7F29893BE0004CD78D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37CE6D8229893BE0004CD78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37CE6D8529893BE0004CD78D /* ChikChak_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChikChak_App.xcdatamodel; sourceTree = "<group>"; };
 		37CE6D8729893BE1004CD78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37CE6D8A29893BE1004CD78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37CE6D8C29893BE1004CD78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FC8810299D18F100254993 /* NewsCellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellDetailViewController.swift; sourceTree = "<group>"; };
+		37FC8812299D190000254993 /* NewsCellDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsCellDetailViewController.storyboard; sourceTree = "<group>"; };
+		37FC884729A24DAE00254993 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCFAF9D26455C5984E889A6D /* Pods_ChikChak_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChikChak_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B59D3926A3EA17D07CB9D2 /* Pods-ChikChak App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChikChak App.debug.xcconfig"; path = "Target Support Files/Pods-ChikChak App/Pods-ChikChak App.debug.xcconfig"; sourceTree = "<group>"; };
+		F17D37E89F278100AEF68922 /* Pods-ChikChak App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChikChak App.release.xcconfig"; path = "Target Support Files/Pods-ChikChak App/Pods-ChikChak App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +79,152 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D0FB3E9D29D04BA265D8E57 /* Pods_ChikChak_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10FA48F89A6AF285B4A72D09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCFAF9D26455C5984E889A6D /* Pods_ChikChak_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		374D3F7029A4057C00D58421 /* BestPlayerCell */ = {
+			isa = PBXGroup;
+			children = (
+				374D3F7329A405D500D58421 /* BestPlayerCell.xib */,
+				374D3F7129A405C800D58421 /* BestPlayerCell.swift */,
+			);
+			path = BestPlayerCell;
+			sourceTree = "<group>";
+		};
+		379BC9F02997B18F000C9FC8 /* MainSupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				37CE6D7B29893BE0004CD78D /* AppDelegate.swift */,
+				37CE6D7D29893BE0004CD78D /* SceneDelegate.swift */,
+				37CE6D8729893BE1004CD78D /* Assets.xcassets */,
+				37CE6D8929893BE1004CD78D /* LaunchScreen.storyboard */,
+				37CE6D8129893BE0004CD78D /* Main.storyboard */,
+			);
+			path = MainSupportFiles;
+			sourceTree = "<group>";
+		};
+		379BC9F12997EAC3000C9FC8 /* MyServices */ = {
+			isa = PBXGroup;
+			children = (
+				379BC9F22997EB03000C9FC8 /* NetworkService.swift */,
+				379BC9F42997EB2A000C9FC8 /* Models */,
+			);
+			path = MyServices;
+			sourceTree = "<group>";
+		};
+		379BC9F42997EB2A000C9FC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				379BC9F52997EBD7000C9FC8 /* UserProfileModel.swift */,
+				379BC9F72997EC5E000C9FC8 /* ContestModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		379BC9FB2997EDB2000C9FC8 /* MyTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				379BC9FC2997EDF6000C9FC8 /* TabBarController.swift */,
+				379BC9FE2997EE17000C9FC8 /* NewsVC */,
+				379BC9FF2997EE21000C9FC8 /* CurrentContestVC */,
+				379BCA002997EE83000C9FC8 /* SettingsProfileVC */,
+			);
+			path = MyTabBar;
+			sourceTree = "<group>";
+		};
+		379BC9FE2997EE17000C9FC8 /* NewsVC */ = {
+			isa = PBXGroup;
+			children = (
+				379BCA012997EEA9000C9FC8 /* NewsCell */,
+				37FC880E299D186A00254993 /* NewsCellDetailVC */,
+				379BCA142997EF0D000C9FC8 /* NewsViewController.storyboard */,
+				379BCA0A2997EEE8000C9FC8 /* NewsViewController.swift */,
+			);
+			path = NewsVC;
+			sourceTree = "<group>";
+		};
+		379BC9FF2997EE21000C9FC8 /* CurrentContestVC */ = {
+			isa = PBXGroup;
+			children = (
+				374D3F7029A4057C00D58421 /* BestPlayerCell */,
+				379BCA242997EFE3000C9FC8 /* CurrentContestViewController.storyboard */,
+				379BCA1A2997EFD2000C9FC8 /* CurrentContestViewController.swift */,
+			);
+			path = CurrentContestVC;
+			sourceTree = "<group>";
+		};
+		379BCA002997EE83000C9FC8 /* SettingsProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				379BCA362997F0D8000C9FC8 /* SettingsProfileViewController.storyboard */,
+				379BCA2C2997F0C5000C9FC8 /* SettingsProfileViewController.swift */,
+			);
+			path = SettingsProfileVC;
+			sourceTree = "<group>";
+		};
+		379BCA012997EEA9000C9FC8 /* NewsCell */ = {
+			isa = PBXGroup;
+			children = (
+				379BCA042997EED3000C9FC8 /* NewsCell.xib */,
+				379BCA022997EEC9000C9FC8 /* NewsCell.swift */,
+			);
+			path = NewsCell;
+			sourceTree = "<group>";
+		};
+		379BCA382997F1D8000C9FC8 /* MyHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				379BCA392997F214000C9FC8 /* UIViewController + Storyboard.swift */,
+			);
+			path = MyHelpers;
+			sourceTree = "<group>";
+		};
+		379BCA3B2997F259000C9FC8 /* MyAuth */ = {
+			isa = PBXGroup;
+			children = (
+				379BCA3C2997F2A9000C9FC8 /* LoginVC */,
+				379BCA3D2997F2B8000C9FC8 /* RegisterVC */,
+			);
+			path = MyAuth;
+			sourceTree = "<group>";
+		};
+		379BCA3C2997F2A9000C9FC8 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				379BCA4C2997F2E0000C9FC8 /* LoginViewController.storyboard */,
+				379BCA422997F2CD000C9FC8 /* LoginViewController.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		379BCA3D2997F2B8000C9FC8 /* RegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				379BCA5C2997F324000C9FC8 /* RegisterViewController.storyboard */,
+				379BCA522997F30B000C9FC8 /* RegisterViewController.swift */,
+			);
+			path = RegisterVC;
+			sourceTree = "<group>";
+		};
 		37CE6D6F29893BE0004CD78D = {
 			isa = PBXGroup;
 			children = (
 				37CE6D7A29893BE0004CD78D /* ChikChak App */,
 				37CE6D7929893BE0004CD78D /* Products */,
+				617E7A7B38AFE8457B941CC5 /* Pods */,
+				10FA48F89A6AF285B4A72D09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +239,34 @@
 		37CE6D7A29893BE0004CD78D /* ChikChak App */ = {
 			isa = PBXGroup;
 			children = (
-				37CE6D7B29893BE0004CD78D /* AppDelegate.swift */,
-				37CE6D7D29893BE0004CD78D /* SceneDelegate.swift */,
-				37CE6D7F29893BE0004CD78D /* ViewController.swift */,
-				37CE6D8129893BE0004CD78D /* Main.storyboard */,
-				37CE6D8729893BE1004CD78D /* Assets.xcassets */,
-				37CE6D8929893BE1004CD78D /* LaunchScreen.storyboard */,
+				379BC9F02997B18F000C9FC8 /* MainSupportFiles */,
+				379BC9F12997EAC3000C9FC8 /* MyServices */,
+				379BCA3B2997F259000C9FC8 /* MyAuth */,
+				379BC9FB2997EDB2000C9FC8 /* MyTabBar */,
+				379BCA382997F1D8000C9FC8 /* MyHelpers */,
 				37CE6D8C29893BE1004CD78D /* Info.plist */,
 				37CE6D8429893BE0004CD78D /* ChikChak_App.xcdatamodeld */,
+				37FC884729A24DAE00254993 /* GoogleService-Info.plist */,
 			);
 			path = "ChikChak App";
+			sourceTree = "<group>";
+		};
+		37FC880E299D186A00254993 /* NewsCellDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				37FC8812299D190000254993 /* NewsCellDetailViewController.storyboard */,
+				37FC8810299D18F100254993 /* NewsCellDetailViewController.swift */,
+			);
+			path = NewsCellDetailVC;
+			sourceTree = "<group>";
+		};
+		617E7A7B38AFE8457B941CC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0B59D3926A3EA17D07CB9D2 /* Pods-ChikChak App.debug.xcconfig */,
+				F17D37E89F278100AEF68922 /* Pods-ChikChak App.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37CE6D8F29893BE1004CD78D /* Build configuration list for PBXNativeTarget "ChikChak App" */;
 			buildPhases = (
+				8141F30DCFB3D034265A6368 /* [CP] Check Pods Manifest.lock */,
 				37CE6D7429893BE0004CD78D /* Sources */,
 				37CE6D7529893BE0004CD78D /* Frameworks */,
 				37CE6D7629893BE0004CD78D /* Resources */,
+				5B14041E4BFDC8A61B1BBFBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,23 +329,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379BCA252997EFE3000C9FC8 /* CurrentContestViewController.storyboard in Resources */,
+				379BCA152997EF0D000C9FC8 /* NewsViewController.storyboard in Resources */,
+				374D3F7429A405D500D58421 /* BestPlayerCell.xib in Resources */,
 				37CE6D8B29893BE1004CD78D /* LaunchScreen.storyboard in Resources */,
 				37CE6D8829893BE1004CD78D /* Assets.xcassets in Resources */,
+				379BCA052997EED3000C9FC8 /* NewsCell.xib in Resources */,
+				379BCA4D2997F2E0000C9FC8 /* LoginViewController.storyboard in Resources */,
+				379BCA5D2997F324000C9FC8 /* RegisterViewController.storyboard in Resources */,
+				37FC8813299D190000254993 /* NewsCellDetailViewController.storyboard in Resources */,
+				37FC884829A24DAE00254993 /* GoogleService-Info.plist in Resources */,
 				37CE6D8329893BE0004CD78D /* Main.storyboard in Resources */,
+				379BCA372997F0D8000C9FC8 /* SettingsProfileViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B14041E4BFDC8A61B1BBFBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChikChak App/Pods-ChikChak App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChikChak App/Pods-ChikChak App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChikChak App/Pods-ChikChak App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8141F30DCFB3D034265A6368 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChikChak App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37CE6D7429893BE0004CD78D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37CE6D8029893BE0004CD78D /* ViewController.swift in Sources */,
+				379BCA492997F2CD000C9FC8 /* LoginViewController.swift in Sources */,
+				379BC9F32997EB03000C9FC8 /* NetworkService.swift in Sources */,
+				374D3F7229A405C800D58421 /* BestPlayerCell.swift in Sources */,
+				379BCA3A2997F214000C9FC8 /* UIViewController + Storyboard.swift in Sources */,
+				379BCA212997EFD2000C9FC8 /* CurrentContestViewController.swift in Sources */,
+				379BCA112997EEE8000C9FC8 /* NewsViewController.swift in Sources */,
+				379BC9FD2997EDF6000C9FC8 /* TabBarController.swift in Sources */,
+				37FC8811299D18F100254993 /* NewsCellDetailViewController.swift in Sources */,
+				379BCA032997EEC9000C9FC8 /* NewsCell.swift in Sources */,
+				379BCA592997F30B000C9FC8 /* RegisterViewController.swift in Sources */,
+				379BC9F82997EC5E000C9FC8 /* ContestModel.swift in Sources */,
 				37CE6D7C29893BE0004CD78D /* AppDelegate.swift in Sources */,
 				37CE6D7E29893BE0004CD78D /* SceneDelegate.swift in Sources */,
 				37CE6D8629893BE0004CD78D /* ChikChak_App.xcdatamodeld in Sources */,
+				379BC9F62997EBD7000C9FC8 /* UserProfileModel.swift in Sources */,
+				379BCA332997F0C5000C9FC8 /* SettingsProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,19 +552,21 @@
 		};
 		37CE6D9029893BE1004CD78D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B59D3926A3EA17D07CB9D2 /* Pods-ChikChak App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZPY2979P3S;
+				DEVELOPMENT_TEAM = 64JPLF72R6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ChikChak App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,19 +582,21 @@
 		};
 		37CE6D9129893BE1004CD78D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17D37E89F278100AEF68922 /* Pods-ChikChak App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZPY2979P3S;
+				DEVELOPMENT_TEAM = 64JPLF72R6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ChikChak App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
